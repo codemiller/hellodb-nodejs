@@ -1,0 +1,38 @@
+{
+  "name": "OpenShift-Nodejs-HelloWorld",
+  "version": "1.0.0",
+  "description": "OpenShift demo app",
+  "keywords": [
+    "OpenShift",
+    "Node.js",
+    "application",
+    "openshift"
+  ],
+  "author": {
+    "name": "Katie Miller",
+    "email": "codemiller@redhat.com",
+    "url": "http://www.codemiller.com"
+  },
+  "homepage": "http://www.openshift.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codemiller/openshift-nodejs-helloworld"
+  },
+
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+
+  "dependencies": {
+    "restify": "~2.6.0",
+    "pg": "~3.0.1",
+    "mysql": "~2.1.1",
+    "mongodb": "~1.4"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+
+  "private": true,
+  "main": "server.js"
+}
